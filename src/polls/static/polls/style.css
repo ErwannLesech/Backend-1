@@ -1,0 +1,9 @@
+li a {
+    color: white;
+}
+body {
+    background: white url("img/background.jpg");
+    /* size = all the page */
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
