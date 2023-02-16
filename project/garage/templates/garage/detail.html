@@ -1,0 +1,6 @@
+<h1>{{ motorcycle.name }}</h1>
+<ul>
+{% for detail in motorcycle.detail.all %}
+    <li><a href="{% url 'motorcycle:detail' motorcycle.id %}">{{ motorcycle.name }}</a></li>    
+{% endfor %}
+</ul>
